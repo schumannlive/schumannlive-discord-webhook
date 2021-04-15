@@ -12,3 +12,5 @@ Discord webhook script to post schumanns on your discord server.
 6. Run hook.js and it will automatically send fresh graphs every 2 hours to your discord. 
 
 *npm dependency - discord.js*
+
+shoutsout to yung brick, barteq and bigboy 
