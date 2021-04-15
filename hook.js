@@ -18,7 +18,7 @@ const embed = new Discord.MessageEmbed()
 	.setURL('https://twitter.com/schumannlive')
     	.setDescription("Schumann resonance graphs from Tomsk, Russia and Cumiana, Italy")
     	.setThumbnail('https://pbs.twimg.com/profile_images/1378114668414308356/0u_ykowi_400x400.jpg')
-    .	addFields(
+    	.addFields(
 		{ name: date.toUTCString(), value: '🌏🌎🌍🌞🌍🌎🌏' },
 		{ name: 'Tomsk observatory', value: 'http://sosrff.tsu.ru/', inline: true },
 		{ name: 'Italy observatory', value: 'http://www.vlf.it/cumiana/livedata.html', inline: true },
