@@ -11,7 +11,7 @@ Discord webhook script to post schumanns on your discord server.
 5. In line 3 of hook.js paste *XXXXXXXXX* into the 1st set of quotation marks, and *xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx* into the second.
 6. Run hook.js and it will automatically send fresh graphs every 2 hours to your discord. It will take 2 hours before 1st set of graphs is sent.
 
-Alternatively you can use QTWeet discord bot to subscribe to any twitter account and have a live feed on it on discord. 
+Alternatively you can use QTWeet discord bot to subscribe to any twitter account and have a live feed of it on discord. 
 
 *npm dependency - discord.js*
 
