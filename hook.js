@@ -13,16 +13,16 @@ var sch7 = ('http://www.vlf.it/cumiana/last-plotted.jpg ')
 var date = new Date();
 
 const embed = new Discord.MessageEmbed()
-    .setColor('0xf7f7f8')
-    .setTitle('Schumannlive')
+    	.setColor('0xf7f7f8')
+    	.setTitle('Schumannlive')
 	.setURL('https://twitter.com/schumannlive')
-    .setDescription("Schumann resonance graphs from Tomsk, Russia and Cumiana, Italy")
-    .setThumbnail('https://pbs.twimg.com/profile_images/1378114668414308356/0u_ykowi_400x400.jpg')
-    .addFields(
+    	.setDescription("Schumann resonance graphs from Tomsk, Russia and Cumiana, Italy")
+    	.setThumbnail('https://pbs.twimg.com/profile_images/1378114668414308356/0u_ykowi_400x400.jpg')
+    .	addFields(
 		{ name: date.toUTCString(), value: '🌏🌎🌍🌞🌍🌎🌏' },
 		{ name: 'Tomsk observatory', value: 'http://sosrff.tsu.ru/', inline: true },
 		{ name: 'Italy observatory', value: 'http://www.vlf.it/cumiana/livedata.html', inline: true },
-    )
+    	)
 
     
 
