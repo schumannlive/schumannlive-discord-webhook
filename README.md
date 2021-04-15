@@ -14,6 +14,7 @@ Discord webhook script to post schumanns on your discord server.
 *npm dependency - discord.js*
 
 ### How it looks:
+![how-it-looks2](https://user-images.githubusercontent.com/82292036/114833378-ce4ee480-9dcf-11eb-9ccb-2a1b16b4e7c3.jpg)
 ![how-it-looks](https://user-images.githubusercontent.com/82292036/114832116-677cfb80-9dce-11eb-9457-adf1d745d401.jpg)
 
 
