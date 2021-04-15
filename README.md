@@ -14,6 +14,7 @@ Discord webhook script to post schumanns on your discord server.
 *npm dependency - discord.js*
 
 ### How it looks:
-<img src=“https://raw.githubusercontent.com/schumannlive/schumannlive-discord-webhook/main/how-it-looks.jpg”>
+![how-it-looks](https://user-images.githubusercontent.com/82292036/114832116-677cfb80-9dce-11eb-9457-adf1d745d401.jpg)
+
 
 shoutsout to yung brick, barteq and bigboy 
