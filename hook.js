@@ -2,13 +2,13 @@ const Discord = require('discord.js')
 
 const webhook = new Discord.WebhookClient('first section of the link - paste here!','second section of the link - paste here!') ///Provide your webhook url identificators
 
-var sch1 = ('http://sosrff.tsu.ru/new/shm.jpg ')	/// define graph links
-var sch2 = ('http://sosrff.tsu.ru/new/sra.jpg ')	/// define graph links
-var sch3 = ('http://sosrff.tsu.ru/new/srf.jpg ')	/// define graph links
-var sch4 = ('http://sosrff.tsu.ru/new/srq.jpg ')	/// define graph links
-var sch5 = ('http://www.vlf.it/cumiana/last_E-VLF.jpg ')	/// define graph links
-var sch6 = ('http://www.vlf.it/cumiana/last-geomar.jpg ')	/// define graph links
-var sch7 = ('http://www.vlf.it/cumiana/last-plotted.jpg ')	/// define graph links
+var sch1 = ('http://sosrff.tsu.ru/new/shm.jpg')	/// define graph links
+var sch2 = ('http://sosrff.tsu.ru/new/sra.jpg')	/// define graph links
+var sch3 = ('http://sosrff.tsu.ru/new/srf.jpg')	/// define graph links
+var sch4 = ('http://sosrff.tsu.ru/new/srq.jpg')	/// define graph links
+var sch5 = ('http://www.vlf.it/cumiana/last_E-VLF.jpg')	/// define graph links
+var sch6 = ('http://www.vlf.it/cumiana/last-geomar.jpg')	/// define graph links
+var sch7 = ('http://www.vlf.it/cumiana/last-plotted.jpg')	/// define graph links
 
 var date = new Date();
 
