@@ -10,3 +10,5 @@ Discord webhook script to post schumanns on your discord server.
 4. Your webook URL will look something like this - https://discord.com/api/webhooks/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 5. In line 3 of hook.js *(const webhook = new Discord.WebhookClient('',''))* copy *XXXXXXXXX* into the 1st set of quotation marks, and *xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx* into the second.
 6. Run hook.js and it will automatically send fresh graphs every 2 hours to your discord. 
+
+*npm dependency - discord.js*
