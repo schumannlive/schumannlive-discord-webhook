@@ -13,4 +13,6 @@ Discord webhook script to post schumanns on your discord server.
 
 *npm dependency - discord.js*
 
+https://cdn.discordapp.com/attachments/777497568627916811/832156169115926548/Screenshot_20210415-093055.jpg
+
 shoutsout to yung brick, barteq and bigboy 
