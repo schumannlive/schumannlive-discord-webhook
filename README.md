@@ -1,6 +1,6 @@
 # 🌍 schumannlive-discord-webhook 🌎
 
-Discord webhook script to post schumanns on your discord server.
+Discord webhook script to post Schumann resonance graphs to your discord server.
 
 ## How to make it work?
 
