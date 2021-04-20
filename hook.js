@@ -2,12 +2,24 @@ const Discord = require('discord.js')
 
 const webhook = new Discord.WebhookClient('first section of the link - paste here!','second section of the link - paste here!') ///Provide your webhook url identificators
 
-setInterval(PostRussia, 1000*60*120)
+setInterval(Russia, 1000*60*120)
 
-  function PostRussia(){    
-    
+  function Russia() {
+
     var date = new Date();
 
+    const embed1 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://sosrff.tsu.ru/new/shm.jpg')
+    const embed2 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://sosrff.tsu.ru/new/sra.jpg')
+    const embed3 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://sosrff.tsu.ru/new/srf.jpg')
+    const embed4 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://sosrff.tsu.ru/new/srq.jpg')
     const embedRussia = new Discord.MessageEmbed()
     .setColor('0xf7f7f8')
     .setTitle(date.toUTCString())
@@ -18,24 +30,26 @@ setInterval(PostRussia, 1000*60*120)
 		{ name: 'Tomsk observatory', value: 'http://sosrff.tsu.ru/', inline: true },
     )
 
-    var sch1 = ('http://sosrff.tsu.ru/new/shm.jpg ')
-    var sch2 = ('http://sosrff.tsu.ru/new/sra.jpg ')
-    var sch3 = ('http://sosrff.tsu.ru/new/srf.jpg ')
-    var sch4 = ('http://sosrff.tsu.ru/new/srq.jpg ')
-
-    {schumanns = [(sch1), (sch2), (sch3), (sch4)]}
+    {schumanns = [(embed1), (embed2), (embed3), (embed4), (embedRussia)]}
 
     webhook.send(schumanns)
-    webhook.send(embedRussia)
-
   }
-      
-setInterval(PostItaly, 1000*60*120)
 
-  function PostItaly(){    
-    
+setInterval(Italy, 1000*60*120)
+
+  function Italy() {
+
     var date = new Date();
 
+    const embed1 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://www.vlf.it/cumiana/last_E-VLF.jpg')
+    const embed2 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://www.vlf.it/cumiana/last-geomar.jpg')
+    const embed3 = new Discord.MessageEmbed()
+    .setColor('#0xf7f7f8')
+    .setImage('http://www.vlf.it/cumiana/last-plotted.jpg')
     const embedItaly = new Discord.MessageEmbed()
     .setColor('0xf7f7f8')
     .setTitle(date.toUTCString())
@@ -46,13 +60,7 @@ setInterval(PostItaly, 1000*60*120)
 		{ name: 'Cumiana observatory', value: 'http://www.vlf.it/cumiana/livedata.html', inline: true },
     )
 
-    var sch1 = ('http://www.vlf.it/cumiana/last_E-VLF.jpg')
-    var sch2 = ('http://www.vlf.it/cumiana/last-geomar.jpg')
-    var sch3 = ('http://www.vlf.it/cumiana/last-plotted.jpg')
-
-    {schumanns = [(sch1), (sch2), (sch3)]}
+    {schumanns = [(embed1), (embed2), (embed3), (embedItaly)]}
 
     webhook.send(schumanns)
-    webhook.send(embedItaly)
-
   }
