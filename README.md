@@ -15,4 +15,8 @@ Alternatively you can use QTweet discord bot to subscribe to any twitter account
 
 *npm dependency - discord.js*
 
+# How it looks:
+![Screenshot_20210420-145133](https://user-images.githubusercontent.com/82292036/115399025-0eef9900-a1e8-11eb-8966-34e786c956d9.jpg)
+
+
 shoutsout to yung brick, barteq and bigboy 
