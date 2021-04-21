@@ -9,7 +9,7 @@ Discord webhook script to post Schumann resonance graphs to your discord server.
 3. Chose a name and profile picture for your webhook and save changes, proceed to copy webhook URL
 4. Your webook URL will look something like this - https://discord.com/api/webhooks/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 5. In line 3 of hook.js paste *XXXXXXXXX* into the 1st set of quotation marks, and *xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx* into the second.
-6. Run hook.js and it will automatically send fresh graphs every 2 hours to your discord. It will take 2 hours before 1st set of graphs is sent.
+6. Run hook.js(Russia and Italy), hookRussiaOnly.js or hookItalyOnly.js and it will automatically send fresh graphs every 2 hours to your discord. It will take 2 hours before 1st set of graphs is sent. (latest version of node required)
 
 Alternatively you can use QTweet discord bot to subscribe to any twitter account and have a live feed of it on discord. 
 
