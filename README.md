@@ -14,7 +14,7 @@ npm install discord.js
 ```
 npm install forever
 ```
-to run, type in ```node hook.js```, and if you want to make it run in the background type in ```forever start hook.js```
+to run, type in ```node hook.js```, and if you want to make it run in the background type in ```forever start hook.js``` (keep in mind I am describing running it on windows machine)
 
 - Go to your discord server and create a channel/chose existing one to post live schumanns
 - Click on the little gear icon popping up after hovering over your channel of choice to go into 'Integrations' section, then click on 'webhooks' and create a new webhook.
