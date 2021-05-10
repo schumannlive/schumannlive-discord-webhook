@@ -1,0 +1,14 @@
+{
+  "name": "schumannlive_discord_webhook",
+  "version": "1.0.0",
+  "description": "Live schumann resonance graphs",
+  "author": "misko <schumannlive@protonmail.ch>",
+  "main": "hookRussia.js",
+  "scripts": {
+    "start": "node hookRussia.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "image-downloader": "^4.0.2"
+  }
+}
