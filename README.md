@@ -18,5 +18,5 @@ Discord webhook script to post Schumann resonance graphs to your discord server.
 Alternatively you can use QTweet discord bot to subscribe to any twitter account and have a live feed of it on discord. 
 
 
-# How it looks:
+### How it looks:
 https://imgur.com/a/6gh06Zo
